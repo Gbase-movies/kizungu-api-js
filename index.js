@@ -8,7 +8,10 @@ const app = express()
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        intro: "back homepage🤣🤣 for help contact swaflixdeveloper"
+        intro: "Welcome to the unofficial vidsrc provider: check the provider website @ https://swaflix.xyz/ ",
+        routes: {
+            movie: "/autoembed/:movieTMDBid",
+            show: "/vidsrcxyz/:showTMDBid?s=seasonNumber&e=episodeNumber"
         },
         author: "This api is developed and created by Swafbase"
     });
