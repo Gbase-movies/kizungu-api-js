@@ -8,12 +8,9 @@ const app = express()
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        intro: "Welcome to the unofficial swafbase provider: check the provider website @ https://swaflix.xyz/ ",
-        routes: {
-            movie: "/vidsrc/:movieTMDBid",
-            show: "/vidsrc/:showTMDBid?s=seasonNumber&e=episodeNumber"
+        intro: "back homepage🤣🤣 for help contact swaflixdeveloper"
         },
-        author: "This api is developed and created by Swaflix"
+        author: "This api is developed and created by Swafbase"
     });
 });
 
