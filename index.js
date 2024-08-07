@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
             movie: "/vidsrc/:movieTMDBid",
             show: "/vidsrc/:showTMDBid?s=seasonNumber&e=episodeNumber"
         },
-        author: "This api is developed and created by Inside4ndroid Studios"
+        author: "This api is developed and created by Swaflix"
     });
 });
 
