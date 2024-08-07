@@ -8,7 +8,7 @@ const app = express()
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        intro: "Welcome to the unofficial vidsrc provider: check the provider website @ https://vidsrc.cc/ ",
+        intro: "Welcome to the unofficial swafbase provider: check the provider website @ https://swaflix.xyz/ ",
         routes: {
             movie: "/vidsrc/:movieTMDBid",
             show: "/vidsrc/:showTMDBid?s=seasonNumber&e=episodeNumber"
